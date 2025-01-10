@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1735607820799" clover="3.2.0">
+  <project timestamp="1735607820799" name="All files">
+    <metrics statements="135" coveredstatements="130" conditionals="162" coveredconditionals="126" methods="63" coveredmethods="43" elements="360" coveredelements="299" complexity="0" loc="135" ncloc="135" packages="2" files="4" classes="4"/>
+    <package name="step0">
+      <metrics statements="116" coveredstatements="111" conditionals="160" coveredconditionals="124" methods="61" coveredmethods="41"/>
+      <file name="server.mjs" path="/home/prabowosakti/belajar-nodejs-ulises/NodeJS-for-Beginners/step0/server.mjs">
+        <metrics statements="71" coveredstatements="67" conditionals="54" coveredconditionals="53" methods="15" coveredmethods="13"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="0" type="cond" truecount="7" falsecount="1"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="cond" truecount="4" falsecount="0"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="18" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="19" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="21" count="1" type="cond" truecount="4" falsecount="0"/>
+        <line num="22" count="2" type="stmt"/>
+        <line num="23" count="2" type="stmt"/>
+        <line num="24" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="29" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="31" count="1" type="cond" truecount="5" falsecount="0"/>
+        <line num="32" count="3" type="stmt"/>
+        <line num="33" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="34" count="2" type="stmt"/>
+        <line num="35" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="37" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="39" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="41" count="1" type="cond" truecount="5" falsecount="0"/>
+        <line num="42" count="4" type="stmt"/>
+        <line num="43" count="4" type="stmt"/>
+        <line num="44" count="4" type="stmt"/>
+        <line num="45" count="4" type="cond" truecount="1" falsecount="0"/>
+        <line num="46" count="2" type="stmt"/>
+        <line num="47" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="48" count="2" type="stmt"/>
+        <line num="49" count="2" type="stmt"/>
+        <line num="50" count="2" type="stmt"/>
+        <line num="51" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="52" count="1" type="stmt"/>
+        <line num="53" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="54" count="1" type="stmt"/>
+        <line num="55" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="56" count="1" type="stmt"/>
+        <line num="57" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="58" count="1" type="stmt"/>
+        <line num="59" count="1" type="cond" truecount="5" falsecount="0"/>
+        <line num="60" count="2" type="stmt"/>
+        <line num="61" count="2" type="stmt"/>
+        <line num="62" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="63" count="2" type="cond" truecount="1" falsecount="0"/>
+        <line num="64" count="1" type="stmt"/>
+        <line num="65" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="66" count="1" type="stmt"/>
+        <line num="67" count="1" type="stmt"/>
+        <line num="68" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="69" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="70" count="1" type="stmt"/>
+        <line num="71" count="1" type="stmt"/>
+      </file>
+      <file name="store.mjs" path="/home/prabowosakti/belajar-nodejs-ulises/NodeJS-for-Beginners/step0/store.mjs">
+        <metrics statements="45" coveredstatements="44" conditionals="106" coveredconditionals="71" methods="46" coveredmethods="28"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="0" type="cond" truecount="31" falsecount="32"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="7" count="11" type="stmt"/>
+        <line num="8" count="11" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="cond" truecount="4" falsecount="0"/>
+        <line num="11" count="29" type="cond" truecount="1" falsecount="0"/>
+        <line num="12" count="29" type="cond" truecount="1" falsecount="1"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="1" type="cond" truecount="4" falsecount="0"/>
+        <line num="18" count="13" type="cond" truecount="1" falsecount="0"/>
+        <line num="19" count="13" type="cond" truecount="2" falsecount="1"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="1" type="cond" truecount="4" falsecount="0"/>
+        <line num="23" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="24" count="3" type="stmt"/>
+        <line num="25" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="26" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="29" count="1" type="cond" truecount="4" falsecount="0"/>
+        <line num="30" count="4" type="cond" truecount="1" falsecount="0"/>
+        <line num="31" count="4" type="cond" truecount="1" falsecount="0"/>
+        <line num="32" count="8" type="cond" truecount="2" falsecount="0"/>
+        <line num="33" count="3" type="stmt"/>
+        <line num="34" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="35" count="5" type="stmt"/>
+        <line num="36" count="4" type="stmt"/>
+        <line num="37" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="40" count="1" type="cond" truecount="4" falsecount="0"/>
+        <line num="41" count="4" type="cond" truecount="1" falsecount="0"/>
+        <line num="42" count="4" type="cond" truecount="3" falsecount="0"/>
+        <line num="43" count="1" type="stmt"/>
+        <line num="44" count="1" type="stmt"/>
+        <line num="45" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="step0.tests">
+      <metrics statements="19" coveredstatements="19" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+      <file name="fixtures.js" path="/home/prabowosakti/belajar-nodejs-ulises/NodeJS-for-Beginners/step0/tests/fixtures.js">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+      </file>
+      <file name="utils.js" path="/home/prabowosakti/belajar-nodejs-ulises/NodeJS-for-Beginners/step0/tests/utils.js">
+        <metrics statements="12" coveredstatements="12" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="8" count="1" type="cond" truecount="1" falsecount="0"/>
+        <line num="9" count="25" type="stmt"/>
+        <line num="10" count="25" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
