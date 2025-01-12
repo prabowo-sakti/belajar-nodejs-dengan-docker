@@ -1,14 +1,18 @@
-import dotenv from 'dotenv'
+import 'dotenv/config'
 import { app } from "./server.mjs";
+import mongoose from "mongoose";
 
-dotenv.config()
 
-const mySecret  = process.env.MY_SECRET
-console.log(mySecret)
 
-const port = 3000;
-app
-app.listen(port, () => {
-  console.log(`Running in http://localhost:${port}`);
-});
+const port  = process.env.PORT 
+try {
+  await mongoose.connect(process.env.MONGODB_URI)
+  app.listen(port, () => {
+    console.log(`Running in http://localhost:${port}`);
+  });
+  
+} catch (err){
+  console.log(err)
+
+}
 
