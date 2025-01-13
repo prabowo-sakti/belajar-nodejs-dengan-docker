@@ -30,7 +30,7 @@
     "supertest": "^7.0.0"
   },
   "scripts": {
-    "start": "nodemon index.mjs",
+    "start": "nodemon --require dotenv/config index.mjs",
     "test": "jest --verbose",
     "test:coverage": "jest --coverage",
     "lint": "standard",
